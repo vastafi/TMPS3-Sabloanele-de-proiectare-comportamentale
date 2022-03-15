@@ -19,5 +19,4 @@ class CreditCard implements Strategy {
         public void addingMoney(int amount) {
             System.out.println(amount +" $ add money to your account using the credit/debit card");
         }
-
     }
